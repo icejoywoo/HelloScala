@@ -17,8 +17,8 @@ class AddOne extends (Int => Int) {
   def apply(m: Int): Int = m + 1
 }
 
-object HelloWorld extends App {
-  override def main(args: Array[String]) {
+object HelloWorld {
+  def main(args: Array[String]) {
     println("hello")
 
     println(Timer.currentCount())
